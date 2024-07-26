@@ -1,0 +1,652 @@
+INFO:root:Assigning workitems
+INFO:root:1722030312.751771    Open browser 
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 127.0.6533.72 (9755e24ca85aa18ffa16c743f660a3d914902775-refs/branch-heads/6533@{#1760})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 127.0.6533) with arguments: --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://www.latimes.com/'
+INFO:root:1722030316.9284303    Searching for input phrase
+INFO:RobotFramework:Clicking element 'css:button[data-element='search-button']'.
+INFO:RobotFramework:Typing text 'donald trump' into text field 'name:q'.
+INFO:RobotFramework:Clicking element 'css:button[data-element='search-submit-button']'.
+INFO:root:1722030323.151582    Selecting category
+INFO:root:1722030323.7797256    Sorting by newest
+INFO:RobotFramework:Clicking element 'class:select-input option[value='1']'.
+INFO:root:1722030326.8792603    Getting sorted news
+INFO:root:1722030326.8792603    Comparing containers
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.600")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030329.979983    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.601")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030333.0605469    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.602")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030336.160647    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.603")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030339.2115781    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.604")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030342.2565255    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.605")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030345.3183374    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.606")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030348.3812208    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.607")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030351.4311922    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.608")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030354.5350666    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.876BBC9393F15B81FB14B9B3B9770AD2.e.609")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030357.6322124    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.781")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030362.487376    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.782")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030365.5665188    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.783")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030368.661125    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.784")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030371.74194    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.785")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030374.7878249    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.786")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030377.883129    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.787")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030380.9315948    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.788")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030384.027377    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.789")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030387.066437    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.D4ECFF9E066DEEB1141290EA1DF94D6B.e.790")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030390.1465478    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.962")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030395.6880746    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.963")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030398.7769375    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.964")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030401.82632    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.965")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030404.9250689    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.966")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030408.002693    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.967")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030411.107457    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.968")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030414.20703    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.969")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030417.3058794    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.970")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030420.4049332    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1B1A1C8D032A4B926474795D43DBEB0F.e.971")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030423.4694378    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1137")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030428.9897997    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1138")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030432.0584989    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1139")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030435.1022413    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1140")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030438.204206    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1141")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030441.3036335    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1142")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030444.397864    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1143")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030447.4829092    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1144")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030450.574222    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1145")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030453.6684754    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.20161AD511217935FFBC9958111F73A9.e.1146")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030456.7555363    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1318")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030461.852746    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1319")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030464.904826    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1320")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030467.9995763    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1321")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030471.1006885    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1322")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030474.2010884    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1323")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030477.2976692    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1324")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030480.3868778    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1325")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030483.4311242    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1326")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030486.4806228    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.314382D5782F15F1476346C864B82718.e.1327")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030489.5285144    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1536")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030494.9279382    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1537")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030497.992373    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1538")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030501.0402734    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1539")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030504.1376948    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1540")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030507.1871588    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1541")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030510.2847822    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1542")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030513.3259957    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1543")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030516.3769405    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1544")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030519.4342227    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.C200D0F22BB0548671C574DF867A2DB2.e.1545")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030522.4876149    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1722")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030527.630127    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1723")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030530.712038    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1724")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030533.763639    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1725")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030536.8618007    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1726")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030539.9618897    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1727")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030543.0077615    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1728")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030546.1072006    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1729")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030549.2019176    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1730")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030552.3013983    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.1FF2531C7BC7CB32CB8D580B19C0DEFC.e.1731")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030555.3666065    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1901")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030560.954239    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1902")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030564.052326    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1903")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030567.1469648    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1904")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030570.1938064    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1905")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030573.2934148    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1906")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030576.3845773    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1907")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030579.4825652    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1908")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030582.5283463    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1909")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030585.6299748    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6D4F7EEA421CB5B678EDDFC98678146E.e.1910")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030588.720608    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2095")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030593.6464367    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2096")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030596.6884835    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2097")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030599.7301047    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2098")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030602.7717369    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2099")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030605.8557627    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2100")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030608.9477468    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2101")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030611.9975069    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2102")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030615.0421963    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2103")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030618.0865076    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.15FB6D280D326C91B5A5A96130C91CCE.e.2104")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030621.1799603    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2278")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030626.7077413    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2279")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030629.7929063    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2280")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030632.8872736    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2281")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030635.9334443    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2282")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030638.9773202    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2283")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030642.0268466    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2284")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030645.1142898    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2285")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030648.1607316    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2286")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030651.2012146    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2287")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030654.285591    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2278")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030657.4389956    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2279")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030660.485156    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2280")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030663.5252736    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2281")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030666.5698256    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2282")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030669.6705267    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2283")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030672.7698874    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2284")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030675.815421    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2285")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030678.9094687    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2286")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030681.9544425    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="d2c30e6c251613dd2e9474dcd3384e00", element="f.267E0CFE1CC541FE72AEC2F5309D01E9.d.6E169278459DE389058DAB5FB57A0B53.e.2287")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722030684.9957612    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:root:1722030686.0455954    Writing news to Excel
+INFO:root:1722030686.0741959    Extract image from URL
+INFO:root:1722030686.0741959    Downloading image
+INFO:root:1722030686.1922188    Downloading image
+INFO:root:1722030686.2770908    Downloading image
+INFO:root:1722030686.3499057    Downloading image
+INFO:root:1722030686.448024    Downloading image
+INFO:root:1722030686.5400631    Downloading image
+INFO:root:1722030686.6476703    Downloading image
+INFO:root:1722030686.7398493    Downloading image
+INFO:root:1722030686.8371906    Downloading image
+INFO:root:1722030687.010198    Downloading image
+INFO:root:1722030687.116679    Downloading image
+INFO:root:1722030687.2091055    Downloading image
+INFO:root:1722030687.3046076    Downloading image
+INFO:root:1722030687.393034    Downloading image
+INFO:root:1722030687.472977    Downloading image
+INFO:root:1722030687.5659041    Downloading image
+INFO:root:1722030687.6688323    Downloading image
+INFO:root:1722030687.7679188    Downloading image
+INFO:root:1722030687.8723118    Downloading image
+INFO:root:1722030687.9691956    Downloading image
+INFO:root:1722030688.0552473    Downloading image
+INFO:root:1722030688.1513412    Downloading image
+INFO:root:1722030688.2501407    Downloading image
+INFO:root:1722030688.3303638    Downloading image
+INFO:root:1722030688.4290874    Downloading image
+INFO:root:1722030688.5174322    Downloading image
+INFO:root:1722030688.6256511    Downloading image
+INFO:root:1722030688.770877    Downloading image
+INFO:root:1722030688.8891902    Downloading image
+INFO:root:1722030688.958377    Downloading image
+INFO:root:1722030689.0570867    Downloading image
+INFO:root:1722030689.14529    Downloading image
+INFO:root:1722030689.2378852    Downloading image
+INFO:root:1722030689.3273559    Downloading image
+INFO:root:1722030689.4130862    Downloading image
+INFO:root:1722030689.523047    Downloading image
+INFO:root:1722030689.6070979    Downloading image
+INFO:root:1722030689.690405    Downloading image
+INFO:root:1722030689.7760565    Downloading image
+INFO:root:1722030689.8530478    Downloading image
+INFO:root:1722030689.9464154    Downloading image
+INFO:root:1722030690.0443542    Downloading image
+INFO:root:1722030690.1534142    Downloading image
+INFO:root:1722030690.2512043    Downloading image
+INFO:root:1722030690.35263    Downloading image
+INFO:root:1722030690.437438    Downloading image
+INFO:root:1722030690.528896    Downloading image
+INFO:root:1722030690.6290843    Downloading image
+INFO:root:1722030690.7268    Downloading image
+INFO:root:1722030690.8066065    Downloading image
+INFO:root:1722030690.9075928    Downloading image
+INFO:root:1722030691.010589    Downloading image
+INFO:root:1722030691.098763    Downloading image
+INFO:root:1722030691.192971    Downloading image
+INFO:root:1722030691.2619681    Downloading image
+INFO:root:1722030691.364744    Downloading image
+INFO:root:1722030691.4424648    Downloading image
+INFO:root:1722030691.5183787    Downloading image
+INFO:root:1722030691.590378    Downloading image
+INFO:root:1722030691.689596    Downloading image
+INFO:root:1722030691.7751007    Downloading image
+INFO:root:1722030691.8810735    Downloading image
+INFO:root:1722030691.9784338    Downloading image
+INFO:root:1722030692.0558903    Downloading image
+INFO:root:1722030692.1496398    Downloading image
+INFO:root:1722030692.2544272    Downloading image
+INFO:root:1722030692.3396618    Downloading image
+INFO:root:1722030692.4287715    Downloading image
+INFO:root:1722030692.5246952    Downloading image
+INFO:root:1722030692.611201    Downloading image
+INFO:root:1722030692.68339    Downloading image
+INFO:root:1722030692.7895699    Downloading image
+INFO:root:1722030692.887819    Downloading image
+INFO:root:1722030692.9785612    Downloading image
+INFO:root:1722030693.067309    Downloading image
+INFO:root:1722030693.176468    Downloading image
+INFO:root:1722030693.2715678    Downloading image
+INFO:root:1722030693.3662088    Downloading image
+INFO:root:1722030693.4505913    Downloading image
+INFO:root:1722030693.5405989    Downloading image
+INFO:root:1722030693.6280894    Downloading image
+INFO:root:1722030693.7190242    Downloading image
+INFO:root:1722030693.8105936    Downloading image
+INFO:root:1722030693.9024694    Downloading image
+INFO:root:1722030694.0192685    Downloading image
+INFO:root:1722030694.120784    Downloading image
+INFO:root:1722030694.2122371    Downloading image
+INFO:root:1722030694.2862802    Downloading image
+INFO:root:1722030694.3816495    Downloading image
+INFO:root:1722030694.4813635    Downloading image
+INFO:root:1722030694.6091204    Downloading image
+INFO:root:1722030694.7021346    Downloading image
+INFO:root:1722030694.7736475    Downloading image
+INFO:root:1722030694.8683953    Downloading image
+INFO:root:1722030694.960645    Downloading image
+INFO:root:1722030695.0526068    Downloading image
+INFO:root:1722030695.1265483    Downloading image
+INFO:root:1722030695.2068682    Downloading image
+INFO:root:1722030695.2816703    Downloading image
+INFO:root:1722030695.3688698    Downloading image
+INFO:root:1722030695.4525201    Downloading image
+INFO:root:1722030695.5416718    Downloading image
+INFO:root:1722030695.6193047    Downloading image
+INFO:root:1722030695.7151914    Downloading image
+INFO:root:1722030695.8070555    Downloading image
+INFO:root:1722030695.8925812    Downloading image
+INFO:root:1722030695.9772327    Downloading image
+INFO:root:1722030696.0505931    Downloading image
+INFO:root:1722030696.1261    Downloading image
+INFO:root:1722030696.217098    Downloading image
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015C5C72B310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2c30e6c251613dd2e9474dcd3384e00
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015C5C72BA60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2c30e6c251613dd2e9474dcd3384e00
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015C5C72BBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2c30e6c251613dd2e9474dcd3384e00
+INFO:root:Assigning workitems
+INFO:root:1722031255.4792454    Open browser 
+INFO:RPA.Browser.Selenium:Webdriver version taken into use: ChromeDriver 127.0.6533.72 (9755e24ca85aa18ffa16c743f660a3d914902775-refs/branch-heads/6533@{#1760})
+
+INFO:RobotFramework:Creating an instance of the Chrome WebDriver.
+INFO:RPA.Browser.Selenium:Created Chrome browser (version 127.0.6533) with arguments: --start-maximized --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content
+INFO:RobotFramework:<p>Attempted combinations:</p><div class="doc"><table><tr><th>Browser</th><th>Download</th><th>Error</th></tr><tr><td>Chrome</td><td>False</td><td></td></tr></table></div>
+INFO:RobotFramework:Opening url 'https://www.latimes.com/'
+INFO:root:1722031261.8870637    Searching for input phrase
+INFO:RobotFramework:Clicking element 'css:button[data-element='search-button']'.
+INFO:RobotFramework:Typing text 'donald trump' into text field 'name:q'.
+INFO:RobotFramework:Clicking element 'css:button[data-element='search-submit-button']'.
+INFO:root:1722031264.6633172    Selecting category
+INFO:root:1722031265.344248    Sorting by newest
+INFO:RobotFramework:Clicking element 'class:select-input option[value='1']'.
+INFO:root:1722031268.4985893    Getting sorted news
+INFO:root:1722031268.4985893    Comparing containers
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.523")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031271.6190407    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.524")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031274.7018635    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.525")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031277.7879286    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.526")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031280.8824356    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.527")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031283.981421    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.528")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031287.033268    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.529")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031290.1208663    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.530")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031293.219679    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.531")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031296.2675996    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.1FDA644337FA0E81E70D25129143F0B6.e.532")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031299.3711457    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.733")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031304.4400566    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.734")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031307.5124962    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.735")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031310.6002846    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.736")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031313.695301    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.737")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031316.7464008    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.738")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031319.7894166    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.739")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031322.8764632    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.740")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031325.915738    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.741")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031328.9968417    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.7507A63CE8373CF60BAA3D533449B2BF.e.742")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031332.0569687    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.914")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031336.886396    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.915")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031339.9814103    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.916")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031343.0757544    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.917")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031346.1747344    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.918")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031349.2736187    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.919")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031352.3549767    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.920")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031355.3972487    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.921")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031358.491169    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.922")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031361.5894742    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '9' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.C7318E0B846D58303C9872DB676C223C.e.923")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031364.6400664    Extract image from URL
+INFO:RobotFramework:Clicking element 'class:search-results-module-next-page'.
+INFO:RobotFramework:Assigning temporary id '0' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1089")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031368.9164867    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '1' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1090")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031372.005306    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '2' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1091")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031375.053065    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '3' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1092")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031378.149046    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '4' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1093")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031381.22344    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '5' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1094")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031384.3017943    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '6' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1095")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031387.3992386    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '7' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1096")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031390.4990363    Extract image from URL
+INFO:RobotFramework:Assigning temporary id '8' to element '<selenium.webdriver.remote.webelement.WebElement (session="9701fa99b7acfd01bced9aae745708e1", element="f.9AEF60E0CACA087A957465827C33E6D6.d.3E167F57437FFF2BFA80909F53A5C6DD.e.1097")>'.
+INFO:RobotFramework:Ran with keyword <b>Element Should Be Visible</b> which returned error: <i>Element with locator 'id:modality-466828739218' not found.</i>
+INFO:root:1722031393.5713458    Writing news to Excel
+INFO:root:1722031393.5877657    Extract image from URL
+INFO:root:1722031393.5877657    Downloading image
+INFO:root:1722031393.7481465    Downloading image
+INFO:root:1722031393.8356812    Downloading image
+INFO:root:1722031393.9187121    Downloading image
+INFO:root:1722031394.0135093    Downloading image
+INFO:root:1722031394.0987241    Downloading image
+INFO:root:1722031394.1916451    Downloading image
+INFO:root:1722031394.2675948    Downloading image
+INFO:root:1722031394.3710818    Downloading image
+INFO:root:1722031394.4457126    Downloading image
+INFO:root:1722031394.538751    Downloading image
+INFO:root:1722031394.6318097    Downloading image
+INFO:root:1722031394.7142274    Downloading image
+INFO:root:1722031394.8022072    Downloading image
+INFO:root:1722031394.8886747    Downloading image
+INFO:root:1722031394.9777255    Downloading image
+INFO:root:1722031395.0646603    Downloading image
+INFO:root:1722031395.1436906    Downloading image
+INFO:root:1722031395.2160513    Downloading image
+INFO:root:1722031395.3116984    Downloading image
+INFO:root:1722031395.4112115    Downloading image
+INFO:root:1722031395.497252    Downloading image
+INFO:root:1722031395.5697048    Downloading image
+INFO:root:1722031395.6532571    Downloading image
+INFO:root:1722031395.740322    Downloading image
+INFO:root:1722031395.8234634    Downloading image
+INFO:root:1722031395.9228802    Downloading image
+INFO:root:1722031396.0206208    Downloading image
+INFO:root:1722031396.1178293    Downloading image
+INFO:root:1722031396.206143    Downloading image
+INFO:root:1722031396.2790616    Downloading image
+INFO:root:1722031396.3640726    Downloading image
+INFO:root:1722031396.448742    Downloading image
+INFO:root:1722031396.535571    Downloading image
+INFO:root:1722031396.6429813    Downloading image
+INFO:root:1722031396.7374043    Downloading image
+INFO:root:1722031396.8222187    Downloading image
+INFO:root:1722031396.9243636    Downloading image
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D80B0B310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9701fa99b7acfd01bced9aae745708e1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D80B0BA60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9701fa99b7acfd01bced9aae745708e1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D80B0BBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9701fa99b7acfd01bced9aae745708e1
