@@ -1,18 +1,11 @@
 from RPA.Browser.Selenium import Selenium
-import copy
 import selenium.common.exceptions as SeleniumExceptions
-from datetime import datetime
-import re
 import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
-from openpyxl import Workbook
-import requests
 from urllib.parse import urlparse, parse_qs
-import os
 from Scrapper import Scrapper
 import logging
+from robocorp import vault
+from robocorp.tasks import task
 
 browser = Selenium()
 
@@ -29,7 +22,7 @@ search_icon_link = "#icon-magnify"
 see_all_class = "class:see-all-text"
 labels_class = "class:checkbox-input-label"
 sort_class = "class:select-input"
-web_address = "https://www.latimes.com/"
+web_address = vault.get_secret("URL_from_website")
 news_class = "class:promo-wrapper"
 image_news_class = "image"
 prev_container_class = "class:search-results-module-results-menu"
@@ -46,7 +39,7 @@ image_src_attribute = "src"
 sudden_popup_id = "id:modality-466828739218"
 close_sudden_popup_locator = "class:met-flyout-close"
  
-    
+@task    
 def main():
     logging.basicConfig(filename="webscrapping.log", level=logging.INFO)
     logging.info("Assigning workitems")
@@ -69,9 +62,6 @@ def main():
                                                           title_class, description_class, 
                                                           image_class, image_src_attribute)
         
-        for news in get_news_list:
-            print(news)
-        
         scrapper.write_news_to_Excel(get_news_list, output_folder)
         scrapper.iterate_by_news(get_news_list)
         
@@ -83,8 +73,4 @@ def main():
     finally:
         scrapper.close_browser()
     
-         
-if __name__ == "__main__":
-    
-    main()
     
