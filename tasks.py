@@ -14,7 +14,9 @@ def main():
     
     #web_address = "www.latimes.com/"
     wb_address = vault.get_secret("URL_from_website")
-    web_address = wb_address.values["URL"]
+    web_address = wb_address["URL"]
+    
+    print(wb_address, web_address)
     
     workitems.get_input_work_item()
     variable = workitems.get_work_item_payload()

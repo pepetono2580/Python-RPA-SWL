@@ -29,10 +29,9 @@ class Scrapper:
             for file in files:
                 os.remove(file)
         except Exception as e:
-            logging.info(f"{time.time()}    Failed at cleaning file and folder: {e}")
-            
+            logging.info(f"{time.time()}    Failed at cleaning file and folder: {e}")        
         
-        
+
     def open_chrome_browser(self, address: str):
         logging.info(f"{time.time()}    Open browser ")
         try:
