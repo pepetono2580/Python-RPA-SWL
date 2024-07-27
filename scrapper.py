@@ -165,7 +165,6 @@ class Scrapper:
                     
                     title = current_news.find_element(By.CLASS_NAME, title_class)
                     str_title = title.text
-                    print(str_title)
                     description = current_news.find_element(By.CLASS_NAME, description_class)
                     str_desc = description.text
                     try:
@@ -181,19 +180,25 @@ class Scrapper:
                     
                     has_money = self.compare_bools(title_has_money, desc_has_money)
                     picture_filename = self.extract_image_name_from_URL(image)
-                    
-                    news_list.append({"title": str_title, 
+                    news_article = {"title": str_title, 
                                     "description": str_desc,
                                     "timestamp": time_news, 
                                     "image_url": image, 
                                     "phrase_count": count_title_search_phrase + count_desc_search_phrase, 
                                     "contains_money": has_money,
-                                    "picture_filename": picture_filename})
+                                    "picture_filename": picture_filename}
+                    if news_article in news_list:
+                        return news_list
+                    
+                    news_list.append(news_article)
                     
                 try:
                     self.browser.click_element(next_page_locator)
+                    
                 except SeleniumExceptions.ElementClickInterceptedException as exception:
                     return news_list
+                
+                
         except (Exception, SeleniumExceptions.StaleElementReferenceException, SeleniumExceptions.NoSuchElementException, SeleniumExceptions.TimeoutException) as e:
             logging.info(f"{time.time()}    Failed at getting sorted news due to: {e}")
     
