@@ -12,9 +12,9 @@ def main():
     
     workitems = WorkItems()
     
-    #web_address = "www.latimes.com/"
-    wb_address = vault.get_secret("URL_from_website")
-    web_address = wb_address["URL"]
+    web_address = "www.latimes.com/"
+    #wb_address = vault.get_secret("URL_from_website")
+    #web_address = wb_address["URL"]
     
     workitems.get_input_work_item()
     variable = workitems.get_work_item_payload()
