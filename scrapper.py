@@ -12,6 +12,7 @@ from urllib.parse import urlparse, parse_qs
 import os
 import time
 import logging
+from webdriver_manager.chrome import ChromeDriverManager
 
 class Scrapper:
     def __init__(self, search_phrase, news_category, n_of_months, site_url):
@@ -20,8 +21,13 @@ class Scrapper:
         self.n_of_months = n_of_months
         self.browser = Selenium()
         self.URL = site_url
+
     
-    
+    def install_chromedriver(self):
+        webdriver_path = ChromeDriverManager().install()
+        os.environ["webdriver.chrome.driver"] = webdriver_path
+        self.browser.set_download_directory(webdriver_path)
+        
     def open_chrome_browser(self, address: str):
         logging.info(f"{time.time()}    Open browser ")
         try:

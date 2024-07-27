@@ -1,0 +1,9 @@
+[
+  {
+      "payload": {
+         "search_phrase": "donald trump",
+          "news_category": "Story",
+          "n_of_months": 1
+      }
+  }
+]
