@@ -4,15 +4,12 @@ import selenium.common.exceptions as SeleniumExceptions
 from datetime import datetime
 import re
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
 from openpyxl import Workbook
 import requests
 from urllib.parse import urlparse, parse_qs
-import os
+import os, glob
 import time
 import logging
-from webdriver_manager.chrome import ChromeDriverManager
 
 class Scrapper:
     def __init__(self, search_phrase, news_category, n_of_months, site_url):
@@ -23,10 +20,18 @@ class Scrapper:
         self.URL = site_url
 
     
-    def install_chromedriver(self):
-        webdriver_path = ChromeDriverManager().install()
-        os.environ["webdriver.chrome.driver"] = webdriver_path
-        self.browser.set_download_directory(webdriver_path)
+    def clean_file_and_folder(self, output_path, logs_file):
+        logging.info(f"{time.time()}    Clean file and folder ")
+        try:
+            files = glob.glob(f'{output_path}/.*')
+            if os.path.isfile(logs_file):
+                os.remove(logs_file)
+            for file in files:
+                os.remove(file)
+        except Exception as e:
+            logging.info(f"{time.time()}    Failed at cleaning file and folder: {e}")
+            
+        
         
     def open_chrome_browser(self, address: str):
         logging.info(f"{time.time()}    Open browser ")
